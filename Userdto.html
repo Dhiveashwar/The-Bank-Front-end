@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add User</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="form-container">
+    <form action="" id="userForm">
+      <input type="text" name="Uname" placeholder="User Name" required>
+
+      <input type="date" name="DoB" placeholder="Date of Birth" required>
+
+      <input type="text" name="Uaddress" placeholder="Address">
+
+      <select name="Gender" required>
+        <option value="">-- Select Gender --</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <input type="tel" name="Mobile" placeholder="Mobile Number" pattern="[0-9]{10}" required>
+
+      <input type="email" name="Email" placeholder="Email" required>
+
+      <input type="submit" value="Submit" class="btn-submit">
+    </form>
+  </div>
+</body>
+</html>

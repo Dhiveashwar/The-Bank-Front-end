@@ -32,7 +32,7 @@ html, body {
 .container {
     position: relative;
     min-height: 100vh;
-    background: url('sean-pollock-PhYq704ffdA-unsplash.jpg') no-repeat center center / cover;
+    background: url('Background-image.jpg') no-repeat center center / cover;
 }
 
 /* Dark overlay */
@@ -127,7 +127,7 @@ html, body {
 /* --- Homepage hero (index.html) --- */
 .hero-home {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-                url('sean-pollock-PhYq704ffdA-unsplash.jpg') no-repeat center center/cover;
+                url('Background-image.jpg') no-repeat center center/cover;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -152,7 +152,7 @@ html, body {
 
 /* --- Login page hero --- */
 .hero-login {
-    background: url('sean-pollock-PhYq704ffdA-unsplash-blur.jpg') no-repeat center center/cover;
+    background: url('Background-image.jpg') no-repeat center center/cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
